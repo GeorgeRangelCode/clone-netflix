@@ -5,6 +5,7 @@ import { FooterContainer } from "../containers/footer";
 
 export default function Signin() {
   const [error, setError] = useState("");
+  console.log("🚀 ~ file: signin.js ~ line 8 ~ Signin ~ setError", setError);
   const [emailAddress, setEmailAddress] = useState("");
   const [password, setPassword] = useState("");
 
